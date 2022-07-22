@@ -1,0 +1,239 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{B0FFECB3-C8B7-4EE7-A001-6EF240FA43AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Webservices", "Webservices", "{3B53ADF7-42E9-4303-A27D-4913D78024D9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BrainwaveDB", "Server.Database\BrainwaveDB\BrainwaveDB.sqlproj", "{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BWS.WebServices", "Server.WebServices\BWS.WebServices\BWS.WebServices.csproj", "{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BWS.WindowsService", "Server.WebServices\BWS.WindowsService\BWS.WindowsService.csproj", "{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Install", "Install", "{1AEC84DE-362D-47E1-A727-637803A1CDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogInstaller", "BWS.Installers\LogInstaller\LogInstaller\LogInstaller.csproj", "{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrainwaveServerManagement", "BrainwaveServerManagement", "{9624BC95-C9E5-4E5F-A835-1A9E28541A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainwaveServerManagement", "Server.ManagementConsole\BrainwaveServerManagement\BrainwaveServerManagement\BrainwaveServerManagement.csproj", "{E2595075-7A42-441B-89C3-8AF41C201012}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E} = {C1059D29-5EBB-4386-BBF1-29AAAE6E156E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainwaveServerLicensing", "Server.ManagementConsole\BrainwaveServerManagement\BrainwaveServerLicensing\BrainwaveServerLicensing.csproj", "{77706AC8-9735-440D-8068-E1C839776A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainwaveServerData", "Server.Data\BrainwaveServerData\BrainwaveServerData.csproj", "{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Brainwave.Data", "Brainwave.Data", "{371C813E-B4DA-4F68-BACE-EF60D9E11056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstManager", "BWS.Installers\FirstManager\FirstManager\FirstManager.csproj", "{4BBD567A-F803-409E-AFC5-0D3F6127E23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionString", "BWS.Installers\ConnectionString\ConnectionString\ConnectionString.csproj", "{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{DE3E65DC-4280-4F0F-A89C-780DB5C58A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogBuilder", "Tools\CatalogBuilder\CatalogBuilder\CatalogBuilder.csproj", "{60882329-62CF-4173-9308-76872BEB6C17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|x64.ActiveCfg = Debug|x64
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|x64.Build.0 = Debug|x64
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|x64.Deploy.0 = Debug|x64
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|x86.Build.0 = Debug|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|x64.ActiveCfg = Release|x64
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|x64.Build.0 = Release|x64
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|x64.Deploy.0 = Release|x64
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|x86.Build.0 = Release|Any CPU
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E}.Release|x86.Deploy.0 = Release|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Debug|x64.ActiveCfg = Debug|x64
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Debug|x64.Build.0 = Debug|x64
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Release|x64.ActiveCfg = Release|x64
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Release|x64.Build.0 = Release|x64
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3}.Release|x86.Build.0 = Release|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Debug|x64.ActiveCfg = Debug|x64
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Debug|x64.Build.0 = Debug|x64
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Release|x64.ActiveCfg = Release|x64
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Release|x64.Build.0 = Release|x64
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1}.Release|x86.Build.0 = Release|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Debug|x64.ActiveCfg = Debug|x64
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Debug|x64.Build.0 = Debug|x64
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Debug|x86.Build.0 = Debug|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Release|x64.ActiveCfg = Release|x64
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Release|x64.Build.0 = Release|x64
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9}.Release|x86.Build.0 = Release|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Debug|x64.ActiveCfg = Debug|x64
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Debug|x64.Build.0 = Debug|x64
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Debug|x86.Build.0 = Debug|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Release|x64.ActiveCfg = Release|x64
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Release|x64.Build.0 = Release|x64
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Release|x86.ActiveCfg = Release|Any CPU
+		{E2595075-7A42-441B-89C3-8AF41C201012}.Release|x86.Build.0 = Release|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Debug|x64.ActiveCfg = Debug|x64
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Debug|x64.Build.0 = Debug|x64
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Release|x64.ActiveCfg = Release|x64
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Release|x64.Build.0 = Release|x64
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{77706AC8-9735-440D-8068-E1C839776A0B}.Release|x86.Build.0 = Release|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Debug|x64.ActiveCfg = Debug|x64
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Debug|x64.Build.0 = Debug|x64
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Debug|x86.Build.0 = Debug|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Release|x64.ActiveCfg = Release|x64
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Release|x64.Build.0 = Release|x64
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Release|x86.ActiveCfg = Release|Any CPU
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706}.Release|x86.Build.0 = Release|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Debug|x64.ActiveCfg = Debug|x64
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Debug|x64.Build.0 = Debug|x64
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Debug|x86.Build.0 = Debug|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Release|x64.ActiveCfg = Release|x64
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Release|x64.Build.0 = Release|x64
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Release|x86.ActiveCfg = Release|Any CPU
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E}.Release|x86.Build.0 = Release|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Debug|x64.ActiveCfg = Debug|x64
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Debug|x64.Build.0 = Debug|x64
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Debug|x86.Build.0 = Debug|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Release|x64.ActiveCfg = Release|x64
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Release|x64.Build.0 = Release|x64
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611}.Release|x86.Build.0 = Release|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Debug|x64.ActiveCfg = Debug|x64
+		{60882329-62CF-4173-9308-76872BEB6C17}.Debug|x64.Build.0 = Debug|x64
+		{60882329-62CF-4173-9308-76872BEB6C17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Debug|x86.Build.0 = Debug|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Release|x64.ActiveCfg = Release|x64
+		{60882329-62CF-4173-9308-76872BEB6C17}.Release|x64.Build.0 = Release|x64
+		{60882329-62CF-4173-9308-76872BEB6C17}.Release|x86.ActiveCfg = Release|Any CPU
+		{60882329-62CF-4173-9308-76872BEB6C17}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1059D29-5EBB-4386-BBF1-29AAAE6E156E} = {B0FFECB3-C8B7-4EE7-A001-6EF240FA43AD}
+		{E3F2A5EC-8041-445E-9993-D6D34AF7B4B3} = {3B53ADF7-42E9-4303-A27D-4913D78024D9}
+		{73212FEA-181E-484F-A6E1-7C2C4D8DD9A1} = {3B53ADF7-42E9-4303-A27D-4913D78024D9}
+		{6A63AC7E-1C33-4A7D-9123-8C1DBD9A7AD9} = {1AEC84DE-362D-47E1-A727-637803A1CDF7}
+		{E2595075-7A42-441B-89C3-8AF41C201012} = {9624BC95-C9E5-4E5F-A835-1A9E28541A97}
+		{77706AC8-9735-440D-8068-E1C839776A0B} = {9624BC95-C9E5-4E5F-A835-1A9E28541A97}
+		{6E7DC449-23AA-4E51-8ED6-BC631D3F8706} = {371C813E-B4DA-4F68-BACE-EF60D9E11056}
+		{4BBD567A-F803-409E-AFC5-0D3F6127E23E} = {1AEC84DE-362D-47E1-A727-637803A1CDF7}
+		{8FE075B8-BD8B-42A3-B3BA-CAB0AC7F2611} = {1AEC84DE-362D-47E1-A727-637803A1CDF7}
+		{60882329-62CF-4173-9308-76872BEB6C17} = {DE3E65DC-4280-4F0F-A89C-780DB5C58A44}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://brainwavescience.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Server.Database\\BrainwaveDB\\BrainwaveDB.sqlproj
+		SccProjectTopLevelParentUniqueName1 = BrainwaveServer.sln
+		SccProjectName1 = Server.Database/BrainwaveDB
+		SccLocalPath1 = Server.Database\\BrainwaveDB
+		SccProjectUniqueName2 = Server.WebServices\\BWS.WebServices\\BWS.WebServices.csproj
+		SccProjectTopLevelParentUniqueName2 = BrainwaveServer.sln
+		SccProjectName2 = Server.WebServices/BWS.WebServices
+		SccLocalPath2 = Server.WebServices\\BWS.WebServices
+		SccProjectUniqueName3 = Server.WebServices\\BWS.WindowsService\\BWS.WindowsService.csproj
+		SccProjectTopLevelParentUniqueName3 = BrainwaveServer.sln
+		SccProjectName3 = Server.WebServices/BWS.WindowsService
+		SccLocalPath3 = Server.WebServices\\BWS.WindowsService
+		SccProjectUniqueName4 = BWS.Installers\\LogInstaller\\LogInstaller\\LogInstaller.csproj
+		SccProjectTopLevelParentUniqueName4 = BrainwaveServer.sln
+		SccProjectName4 = BWS.Installers/LogInstaller/LogInstaller
+		SccLocalPath4 = BWS.Installers\\LogInstaller\\LogInstaller
+		SccProjectUniqueName5 = Server.ManagementConsole\\BrainwaveServerManagement\\BrainwaveServerManagement\\BrainwaveServerManagement.csproj
+		SccProjectTopLevelParentUniqueName5 = BrainwaveServer.sln
+		SccProjectName5 = Server.ManagementConsole/BrainwaveServerManagement/BrainwaveServerManagement
+		SccLocalPath5 = Server.ManagementConsole\\BrainwaveServerManagement\\BrainwaveServerManagement
+		SccProjectUniqueName6 = Server.ManagementConsole\\BrainwaveServerManagement\\BrainwaveServerLicensing\\BrainwaveServerLicensing.csproj
+		SccProjectTopLevelParentUniqueName6 = BrainwaveServer.sln
+		SccProjectName6 = Server.ManagementConsole/BrainwaveServerManagement/BrainwaveServerLicensing
+		SccLocalPath6 = Server.ManagementConsole\\BrainwaveServerManagement\\BrainwaveServerLicensing
+		SccProjectUniqueName7 = Server.Data\\BrainwaveServerData\\BrainwaveServerData.csproj
+		SccProjectTopLevelParentUniqueName7 = BrainwaveServer.sln
+		SccProjectName7 = Server.Data/BrainwaveServerData
+		SccLocalPath7 = Server.Data\\BrainwaveServerData
+		SccProjectUniqueName8 = BWS.Installers\\FirstManager\\FirstManager\\FirstManager.csproj
+		SccProjectTopLevelParentUniqueName8 = BrainwaveServer.sln
+		SccProjectName8 = BWS.Installers/FirstManager/FirstManager
+		SccLocalPath8 = BWS.Installers\\FirstManager\\FirstManager
+		SccProjectUniqueName9 = BWS.Installers\\ConnectionString\\ConnectionString\\ConnectionString.csproj
+		SccProjectTopLevelParentUniqueName9 = BrainwaveServer.sln
+		SccProjectName9 = BWS.Installers/ConnectionString/ConnectionString
+		SccLocalPath9 = BWS.Installers\\ConnectionString\\ConnectionString
+		SccProjectUniqueName10 = Tools\\CatalogBuilder\\CatalogBuilder\\CatalogBuilder.csproj
+		SccProjectTopLevelParentUniqueName10 = BrainwaveServer.sln
+		SccProjectName10 = Tools/CatalogBuilder/CatalogBuilder
+		SccLocalPath10 = Tools\\CatalogBuilder\\CatalogBuilder
+	EndGlobalSection
+EndGlobal
